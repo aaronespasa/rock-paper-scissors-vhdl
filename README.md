@@ -1,1 +1,1 @@
-# rock-paper-scissors-vhdl
+# Rock Paper Scissors (Computer Technology Project)
