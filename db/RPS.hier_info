@@ -1,0 +1,23 @@
+|RPS
+t1 => Encoder1.IN0
+t1 => Encoder1.IN1
+t1 => Encoder1.IN1
+t1 => Encoder1.IN1
+t1 => Encoder1.IN1
+r1 => Encoder1.IN0
+r1 => Encoder1.IN1
+r1 => Encoder1.IN0
+p1 => Encoder1.IN0
+p1 => Encoder1.IN1
+p1 => Encoder1.IN1
+t2 => Encoder2.IN1
+t2 => Encoder2.IN0
+t2 => Encoder2.IN1
+r2 => Encoder2.IN0
+r2 => Encoder2.IN1
+p2 => Encoder2.IN0
+p2 => Encoder2.IN1
+g1 <= g1.DB_MAX_OUTPUT_PORT_TYPE
+g2 <= g2.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -18,12 +18,12 @@
 #
 # Quartus II
 # Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-# Date created = 16:03:32  March 02, 2021
+# Date created = 19:53:55  March 15, 2021
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "9.1"
-DATE = "16:03:32  March 02, 2021"
+DATE = "19:53:55  March 15, 2021"
 
 # Revisions
 
