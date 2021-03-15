@@ -1,10 +1,10 @@
 ---------------------------------
---ELECTRÓNICA DIGITAL
---PRÁCTICA 1
+--ELECTRï¿½NICA DIGITAL
+--PRï¿½CTICA 1
 ---------------------------------
 
 --------------------------------
---Librerías
+--Librerï¿½as
 -------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
@@ -29,7 +29,7 @@ END RPS;
 --Arquitectura 
 -------------------------------
 ARCHITECTURE BEH OF RPS IS
---Señales 
+--Seï¿½ales 
 SIGNAL x1, x2, x3, x4: STD_LOGIC;
 
 BEGIN
@@ -61,20 +61,20 @@ Encoder2: PROCESS (t2, r2, p2)
 	BEGIN
 		-- t2 cases
 		CASE t2 IS
-			WHEN "0" => 	x1 <= '';
-			WHEN "1" => 	x2 <= '';
+			WHEN "0" => 	x3 <= '';
+			WHEN "1" => 	x4 <= '';
 		END CASE;
 		
 		-- r2 cases
 		CASE r2 IS
-			WHEN "0" => 	x1 <= '';
-			WHEN "1" => 	x2 <= '';
+			WHEN "0" => 	x3 <= '';
+			WHEN "1" => 	x4 <= '';
 		END CASE;
 			
 		-- p2 cases
 		CASE p2 IS
-			WHEN "0" => 	x1 <= '';
-			WHEN "1" => 	x2 <= '';
+			WHEN "0" => 	x3 <= '';
+			WHEN "1" => 	x4 <= '';
 		END CASE;
 	END PROCESS;
 
